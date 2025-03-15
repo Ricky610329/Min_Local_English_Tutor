@@ -1,5 +1,7 @@
 # Min Local English Tutor
 
+[English](./README.md)|繁體中文
+
 這個專案是一個本地英語導師的極簡實作，旨在幫助使用者提升英語能力。  
 
 ## 使用的模型  

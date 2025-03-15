@@ -1,5 +1,7 @@
 # Min Local English Tutor
 
+English|[繁體中文](./README_TW.md)
+
 This project is a minimal implementation of a local English tutor designed to help users improve their English language skills.
 
 ## Model Used
