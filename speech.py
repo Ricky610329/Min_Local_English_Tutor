@@ -9,11 +9,13 @@ CHANNELS = 1             # Mono audio
 RATE = 16000             # 16kHz sampling rate (required by Whisper)
 CHUNK = 1024             # 1024 samples per frame     # Duration of recording
 
+MODEL = "openai/whisper-medium"
+
 
 class Whisper:
     def __init__(self):
-        self.processor = WhisperProcessor.from_pretrained("openai/whisper-base")
-        self.model = WhisperForConditionalGeneration.from_pretrained("openai/whisper-base")
+        self.processor = WhisperProcessor.from_pretrained(MODEL)
+        self.model = WhisperForConditionalGeneration.from_pretrained(MODEL)
         
 
     def transcribe(self, frames):

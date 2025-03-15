@@ -43,7 +43,7 @@ class chatbot:
             'note': "It's about letting user to talk more"
         }
 
-        # minimum and little is a good word
+        # minimum and little makes difference
         if message is None:
             self.message = [{'role': 'system', 'content': 'you are' + str(self.characteristics)}]
         else:

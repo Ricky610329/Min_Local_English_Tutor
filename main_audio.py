@@ -70,13 +70,16 @@ if __name__ == "__main__":
     load_file = args.l
     save_file = args.s
 
-    # Load conversation if the file exists
+    # uncomment the following lines to load the conversation
     # try:
     #     mesg = load_conversation(load_file)
     #     english_tutor = chatbot(mesg)
     # except FileNotFoundError:
     #     english_tutor = chatbot()
+    
+    # comment the following line if you want to load the conversation
     english_tutor = chatbot()
+
     controll = ""
 
     atexit.register(s_t.terminate)
